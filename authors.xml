@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://raw.githubusercontent.com/CANSpiNproject/canspin-schema/refs/heads/main/tei_canspin_authors.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://raw.githubusercontent.com/CANSpiNproject/canspin-schema/refs/heads/main/tei_canspin_authors.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>List of authors for the corpus CANSpiN-lat-19</title>
+        <respStmt>
+          <name>Ulrike Henny-Krahmer</name>
+          <resp>Editor</resp>
+        </respStmt>
+      </titleStmt>
+      <publicationStmt>
+        <distributor>CANSpiN project</distributor>
+        <date when="2026-03-05">March 5, 2026</date>
+        <pubPlace>Rostock</pubPlace>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY 4.0</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>born digital</p>
+      </sourceDesc>
+    </fileDesc>
+    <revisionDesc>
+      <change when="2026-03-05">Created author list for CANSpiN-lat-19</change>
+    </revisionDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <listPerson>
+        <person xml:id="P1">
+          <persName type="main">
+            <forename>Cirilo</forename>
+            <surname>Villaverde</surname>
+          </persName>
+          <persName type="short">VillaverdeC</persName>
+          <idno type="VIAF">2481255</idno>
+          <nationality>Cuban</nationality>
+          <residence from="1812" to="1848" ref="http://vocab.getty.edu/page/tgn/7004624"
+            >Cuba</residence>
+          <residence from="1848" to="1858" ref="http://vocab.getty.edu/page/tgn/7012149"
+            >USA</residence>
+          <residence from="1858" to="1868" ref="http://vocab.getty.edu/page/tgn/7004624"
+            >Cuba</residence>
+          <residence from="1868" to="1894" ref="http://vocab.getty.edu/page/tgn/7012149"
+            >USA</residence>
+          <birth>
+            <date when="1812-10-28">28.10.1812</date>
+            <country ref="http://vocab.getty.edu/page/tgn/7004624">Cuba</country>
+            <settlement ref="http://vocab.getty.edu/page/tgn/1016305">Bahía Honda</settlement>
+          </birth>
+          <death>
+            <date when="1894-10-24">24.10.1894</date>
+            <country ref="http://vocab.getty.edu/page/tgn/7012149">USA</country>
+            <settlement ref="http://vocab.getty.edu/page/tgn/7007567">New York</settlement>
+          </death>
+          <sex>male</sex>
+        </person>
+        <person xml:id="P2">
+          <persName type="main">
+            <forename>Roberto</forename>
+            <surname>Payró</surname>
+          </persName>
+          <persName type="short">PayroR</persName>
+          <idno type="VIAF">17276107</idno>
+          <nationality>Argentine</nationality>
+          <residence from="1867" to="1907" ref="http://vocab.getty.edu/page/tgn/7006477"
+            >Argentina</residence>
+          <residence cert="low" from="1907" to="1909" ref="http://vocab.getty.edu/page/tgn/1000095"
+            >Spain</residence>
+          <residence cert="low" from="1909" to="1915" ref="http://vocab.getty.edu/page/tgn/1000063"
+            >Belgium</residence>
+          <residence cert="low" from="1915" to="1928" ref="http://vocab.getty.edu/page/tgn/7006477"
+            >Argentina</residence>
+          <birth>
+            <date when="1867-04-19">19.04.1867</date>
+            <country ref="http://vocab.getty.edu/page/tgn/7006477">Argentina</country>
+            <settlement ref="http://vocab.getty.edu/page/tgn/1136447">Mercedes</settlement>
+          </birth>
+          <death>
+            <date when="1928-04-08">08.04.1928</date>
+            <country ref="http://vocab.getty.edu/page/tgn/7006477">Argentina</country>
+            <settlement ref="http://vocab.getty.edu/page/tgn/1019697">Lomas de Zamora</settlement>
+          </death>
+          <sex>male</sex>
+        </person>
+      </listPerson>
+    </body>
+  </text>
+</TEI>
